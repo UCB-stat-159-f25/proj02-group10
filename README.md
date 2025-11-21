@@ -9,7 +9,7 @@ Team Members
 Larissa Arreola, Vittal Vasudevan, Daniel Porter, Emily Ma
 
 
-## Overview, 
+## Overview 
 This project explores the reproducibility of the natural language processing (NLP) by doing analysis on the State of the Union speech dataset. 
 
 The work in this repository includes 
