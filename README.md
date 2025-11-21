@@ -17,7 +17,7 @@ The work in this repository includes
 - Text Processing with SpaCy (Part 2) 
 - TF-IDF Vectorization and dimensionality reduction (Part 2) 
 - Topic modeling with LDA and BERTopic (Part 3) 
-- More Analysis done with text processing (Part 4) (i will change this base on what the extra credit it about) 
+- Additional analysis on word frequency over time (Part 4)
 
 All work is done in a reproducible Jupyter Notebook environment, as noted with the ‘enviroment.yml’
 
