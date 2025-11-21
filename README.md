@@ -1,5 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/7TPcE591)
-# proj02
+# Project 2: Reproducibility in Natural Language Processing
 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UCB-stat-159-f25/proj02-group10.git/HEAD)
@@ -77,7 +77,7 @@ The repository is structured as follows:
 
 
 ## Reproducibility notes 
-- All plots generated in Part 1 are saved automatically into the outputs folder 
-- The project is fully reproducibility by running the note book top-to-bottom 
+- All plots generated in Part 1,2,3,4 are saved automatically into the outputs folder, for interactive plots, a static image of them was saved.
+- The project is fully reproducible by running the note book top-to-bottom.
 - The environment is fully specified in the environment.yml for installation 
 - Data files required for the analysis are included in the Data folder 

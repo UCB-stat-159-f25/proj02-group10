@@ -2,7 +2,7 @@
 version: 1
 project:
   id: 413f7c02-9b7a-476e-9438-bdbae1089e41
-  title: "Project 2: Reproducibility in Natural Langauge Processing"
+  title: "Project 2: Reproducibility in Natural Language Processing"
   description: This is the MyST website for STAT 259 - Collaborative and Reproducible Data Science Project 2.
   # keywords: [] 
   authors: 
