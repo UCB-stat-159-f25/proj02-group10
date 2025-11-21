@@ -147,3 +147,16 @@ def highlight_plot(word):
     plt.grid(alpha=0.3)
     plt.tight_layout()
     plt.show()
+
+
+Prompt: I need to join two rows with same year speech, but different speeches and presidents while also adding the word count.
+Answer: (
+    sou.groupby("Year")
+    .agg({
+        "President": lambda x: " | ".join(sorted(set(x))),   # merge unique presidents
+        "Text": lambda x: " ".join(x),                      # concatenate speeches
+        "Word Count": "sum"                                 # sum word counts
+    })
+    .reset_index()
+)
+new_sou.groupby('Year').filter(lambda x: x['Year'].count() > 1)
