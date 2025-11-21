@@ -25,29 +25,56 @@ click on the binder badge. Binder will launch Jupyterlab and load all dependenci
 
 Alternatively, One can run this repo locally by 
 
-Create the environment 
-- conda env create -f environment.yml
+1. Create the environment 
+```bash
+   conda env create -f environment.yml
+```
 
-Activate the conda environment 
-
-- Conda Activate Proj02
+2. Activate the conda environment 
+```bash
+ conda activate proj02
+```
 
 Launch it
 
 
 ## Repository Structure 
 
-Project02 - group 10
-Data 
-SOTU.csv
-Part 1 notebook
-Part 2 notebook 
-Part 3 notebook 
-SRC/
-Output 
-Various figured produced in each of the notebooks 
-Environment.yml 
-README.md 
+The repository is structured as follows:
+
+- `data/`  
+  Contains the raw dataset used for analysis.  
+  - `SOTU.csv` — State of the Union speech dataset
+
+- `outputs/`  
+  Contains all generated outputs from the notebooks, including saved figures.
+
+- `src/`  
+  Contains helper scripts and utility functions used throughout the project.  
+  - `utils.py`
+
+- `nlp-P01.ipynb`  
+  Notebook for Part 1 — data loading and exploratory data analysis.
+
+- `nlp-P02.ipynb`  
+  Notebook for Part 2 — text processing with SpaCy and TF-IDF vectorization.
+
+- `nlp-P03.ipynb`  
+  Notebook for Part 3 — topic modeling using LDA and BERTopic.
+
+- `nlp-P04.ipynb`  
+  Notebook for Part 4 — word frequency analysis over time.
+
+- `environment.yml`  
+  The environment configuration file used to reproduce the computing environment (required for Binder).
+
+- `myst.yml`  
+  MyST metadata configuration file.
+
+- `README.md`  
+  Project overview, instructions for running the notebook, and reproducibility information.
+
+
 
 ## Reproducibility notes 
 - All plots generated in Part 1 are saved automatically into the outputs folder 
